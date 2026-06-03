@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Sudheendra+%F0%9F%91%8B;Senior+Data+Engineer;AWS+%E2%80%A2+Azure+%E2%80%A2+Apache+Spark;PySpark+%E2%80%A2+Airflow+%E2%80%A2+Snowflake;Open+to+Work+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Sudheendra+%F0%9F%91%8B;Data+Engineer;AWS+%E2%80%A2+Azure+%E2%80%A2+Apache+Spark;PySpark+%E2%80%A2+Airflow+%E2%80%A2+Snowflake;Open+to+Work+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <br/>
 
