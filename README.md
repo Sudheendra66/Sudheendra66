@@ -113,20 +113,32 @@ sudheendra = {
 </td>
 <td width="50%" valign="top">
 
-### 🎯 What I'm Building Next
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+### 🎬 YouTube Trending Data Pipeline
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![Step Functions](https://img.shields.io/badge/Step_Functions-FF4F8B?style=flat-square&logo=amazonaws&logoColor=white)
 
-> Currently levelling up toward AI data platforms & MLOps.
+> Production-grade cloud ETL hitting the YouTube Data API v3 live — trending video analytics across 10 countries, fully automated every 6 hours on AWS.
 
-- 🔷 **Databricks** end-to-end project (Codebasics)
-- 🔷 **Spark internals** — partitioning, shuffle, catalyst
-- 🔷 **MLOps** — feature stores, model serving, pipelines
-- 🔷 **AWS + Databricks** unified lakehouse architecture
+- 🏅 **Medallion Architecture** — Bronze → Silver → Gold on S3 + Parquet
+- ✅ **5-point DQ gate** — bad data never reaches analytics layer
+- 🔀 **Step Functions DAG** with 3x retry & exponential backoff
+- 📊 3 analytics tables queryable via **Athena + QuickSight**
 
 </td>
 </tr>
 </table>
+
+---
+
+## 🔭 What's Next
+
+Currently levelling up toward AI-powered data platforms and unified lakehouse engineering:
+
+- 🔷 Pursuing **Microsoft Fabric Analytics Engineer** certification
+- 🔷 Pursuing **Databricks Certified Data Engineer** certification
+- 🔷 Exploring **Databricks + AWS** unified lakehouse architecture
+- 🔷 Deep-diving **MLOps** — feature stores, model serving, pipelines
 
 ---
 
@@ -186,4 +198,3 @@ sudheendra = {
 *"Data is the new oil — I build the pipelines."*
 
 </div>
-
