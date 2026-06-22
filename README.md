@@ -48,6 +48,7 @@ sudheendra = {
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![Delta Lake](https://img.shields.io/badge/Delta%20Lake-003366?style=for-the-badge&logo=databricks&logoColor=white)
 ![Azure Data Factory](https://img.shields.io/badge/Azure%20Data%20Factory-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
 
 ### 💻 Languages & Databases
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -136,7 +137,17 @@ sudheendra = {
 <td width="50%" valign="top">
 
 ### 🏠 Airbnb Analytics Pipeline
-> *(Personal project — coming soon)*
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS_S3-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+> Three messy CSVs — bookings, listings, hosts — ingested, cleaned, tested, and joined into gold-layer analytics tables. Every run incremental. Every dimension tracked with history.
+
+- 🏅 **Medallion Architecture** — Bronze → Silver → Gold in Snowflake via dbt Core
+- 📸 **SCD Type 2 snapshots** — full history on hosts, listings, and bookings with `dbt_valid_from / dbt_valid_to`
+- 🧪 **dbt tests** — unique keys, not-null, referential integrity, and custom business rules
+- ⚙️ Custom **Jinja macros** (`tag()`, `trimmer()`, `multiply()`) + dynamic OBT with loop-driven joins
 
 </td>
 <td width="50%" valign="top">
