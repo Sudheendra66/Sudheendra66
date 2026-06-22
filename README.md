@@ -20,11 +20,11 @@
 sudheendra = {
     "role"      : "Data Engineer",
     "location"  : "Hyderabad, India 🇮🇳",
-    "experience": "5 years",
-    "clouds"    : ["AWS", "Azure"],
-    "domains"   : ["Financial Services", "Telecom", "Risk & Compliance"],
+    "experience": "4+ years",
+    "clouds"    : ["Azure", "AWS"],
+    "domains"   : ["Financial Services", "Agriculture & Supply Chain", "Telecom"],
     "status"    : "🟢 Immediately Available",
-    "learning"  : ["Databricks", "Spark Internals", "MLOps"],
+    "learning"  : ["Databricks", "Microsoft Fabric", "MLOps"],
     "goal"      : "AI Data Platforms & MLOps Engineering",
     "fun"       : "Arsenal FC ⚽ · F1 🏎️ · Interstellar 🪐 (watched 15x)",
 }
@@ -35,28 +35,33 @@ sudheendra = {
 ## 🚀 Tech Stack
 
 ### ☁️ Cloud & Warehousing
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
+![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-742774?style=for-the-badge&logo=microsoft&logoColor=white)
+![Azure Synapse](https://img.shields.io/badge/Azure%20Synapse-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
 ### ⚡ Big Data & Processing
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
+![Delta Lake](https://img.shields.io/badge/Delta%20Lake-003366?style=for-the-badge&logo=databricks&logoColor=white)
+![Azure Data Factory](https://img.shields.io/badge/Azure%20Data%20Factory-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
 ### 💻 Languages & Databases
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Scala](https://img.shields.io/badge/Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ### 🛠️ DevOps & Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D4?style=for-the-badge&logo=azuredevops&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![JIRA](https://img.shields.io/badge/JIRA-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 
 ---
 
@@ -66,49 +71,49 @@ sudheendra = {
 <tr>
 <td width="50%" valign="top">
 
-### ☁️ Ally Financial — AWS Migration
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
+### 🌾 Cargill — Enterprise Data Lake (Azure)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Delta%20Lake-003366?style=flat-square&logo=databricks&logoColor=white)
 
-> Migrated legacy Oracle infrastructure for one of the largest US digital banks to AWS cloud-native tooling.
+> Centralised enterprise data lake on Azure consolidating 35+ source systems across supply chain, commodity trading, and operations globally.
 
-- ⚡ Transform time **6hrs → 90min** on EMR (20-node cluster)
-- 🔄 CDC-based incremental loads via AWS DMS
-- 📊 **SCD Type 1 & 2** across 15+ dimension tables
-- 🔔 Event-driven Lambda triggers on S3 arrival
+- ⚡ Data latency **4 hrs → 30 min** via Structured Streaming & Event Hubs
+- 🏗️ **Medallion Lakehouse** (Bronze → Silver → Gold) with Unity Catalog governance
+- 📈 **3x performance gain** on 10TB+ datasets — commodity reconciliation job from 3 hrs to under 1 hr
+- 🔷 **Microsoft Fabric** reporting layer with DirectLake-connected Power BI datasets
 
 </td>
 <td width="50%" valign="top">
 
-### ⚡ RADAR — JP Morgan Chase (Azure)
+### 🏦 Ally Financial — Cloud Migration (Azure)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
 
-> Enterprise risk & compliance data platform ingesting from 20+ global source systems.
+> Migrated legacy Oracle infrastructure for one of the largest US digital banks to Azure cloud-native tooling across 11M+ customers.
 
-- ⏱️ SOX report runtime **several hrs → 40min**
-- 🔀 **35+ task Airflow DAGs** with retry logic & alerts
-- 🏗️ Parameterised ADF templates for zero-dev onboarding
-- 🧪 Early adoption of **Microsoft Fabric Lakehouse**
+- ⚡ Transform time **6 hrs → 90 min** on 20-node Databricks clusters
+- 🔄 Migrated **900+ Oracle tables** with source-to-target validation & schema drift detection
+- 📊 **SCD Type 1 & 2** across 15+ customer and product dimension tables
+- 🔔 End-to-end orchestration via **Apache Airflow** with dependency management & failure alerting
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 📡 T-Mobile — Network Analytics
-![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black)
-![Hive](https://img.shields.io/badge/Hive-FDEE21?style=flat-square&logo=apachehive&logoColor=black)
-![Spark](https://img.shields.io/badge/Spark%20SQL-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+### 📡 T-Mobile — Customer Data Reporting (AWS)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Athena](https://img.shields.io/badge/AWS%20Athena-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 
-> Hadoop-based platform for network telemetry and CRM analytics.
+> Automated customer data pipeline on AWS replacing a manual file-handling process prone to delays and inconsistencies.
 
-- 📦 **2TB+ daily ingestion** from 6 source systems
-- 🔁 **10M+ customer records** synced via Sqoop daily
-- ⚡ HBase integration for **sub-second** support lookups
-- 📈 20+ optimised Hive tables for BI reporting
+- ⏱️ Daily report delivery **70% faster** — from several hours of manual work to under 45 minutes
+- ⚡ Lambda-triggered **AWS Glue** jobs on S3 file arrival — zero manual runs
+- 🔍 Optimised **Athena SQL** with partition filtering for fast ad hoc reporting
+- 🧪 Multi-layer **data validation framework** catching issues before the reporting layer
 
 </td>
 <td width="50%" valign="top">
@@ -127,6 +132,16 @@ sudheendra = {
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🏠 Airbnb Analytics Pipeline
+> *(Personal project — coming soon)*
+
+</td>
+<td width="50%" valign="top">
+</td>
+</tr>
 </table>
 
 ---
@@ -137,7 +152,7 @@ Currently levelling up toward AI-powered data platforms and unified lakehouse en
 
 - 🔷 Pursuing **Microsoft Fabric Analytics Engineer** certification
 - 🔷 Pursuing **Databricks Certified Data Engineer** certification
-- 🔷 Exploring **Databricks + AWS** unified lakehouse architecture
+- 🔷 Exploring **Databricks + Azure** unified lakehouse architecture
 - 🔷 Deep-diving **MLOps** — feature stores, model serving, pipelines
 
 ---
