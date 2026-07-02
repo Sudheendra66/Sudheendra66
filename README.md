@@ -119,17 +119,19 @@ sudheendra = {
 </td>
 <td width="50%" valign="top">
 
-### 🎬 YouTube Trending Data Pipeline
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Step Functions](https://img.shields.io/badge/Step_Functions-FF4F8B?style=flat-square&logo=amazonaws&logoColor=white)
+### 🏎️ Formula 1 Analytics Platform
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
-> Production-grade cloud ETL hitting the YouTube Data API v3 live — trending video analytics across 10 countries, fully automated every 6 hours on AWS.
+> *"To settle one of Formula 1's biggest debates... I built a data pipeline."* An end-to-end ELT platform ranking the GOAT drivers of all time using a custom multi-factor scoring model.
 
-- 🏅 **Medallion Architecture** — Bronze → Silver → Gold on S3 + Parquet
-- ✅ **5-point DQ gate** — bad data never reaches analytics layer
-- 🔀 **Step Functions DAG** with 3x retry & exponential backoff
-- 📊 3 analytics tables queryable via **Athena + QuickSight**
+- 🔌 **Custom Fivetran Connector SDK** for the Jolpica REST API — incremental sync, pagination, retry handling
+- 🏗️ **Layered dbt architecture** — Staging → Intermediate → Marts, all in Snowflake
+- 🏆 **GOAT ranking model** — Career points, win rate, podiums, and consistency scored across eras
+- 🖥️ Interactive **Streamlit + Plotly dashboard** — driver comparison, leaderboards, championship history
+
+🔗 [Repo](https://github.com/Sudheendra66/Modern-formula1-analytics-platform)
 
 </td>
 </tr>
@@ -151,6 +153,22 @@ sudheendra = {
 
 </td>
 <td width="50%" valign="top">
+
+### 💹 Real-Time Crypto Streaming Lakehouse
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
+> End-to-end real-time lakehouse streaming live crypto trades from Binance to an interactive dashboard, built to mirror a production streaming platform.
+
+- ⚡ Live ingestion via **Binance WebSocket → Event Hubs → Structured Streaming**
+- 🏅 **Medallion Architecture** — Bronze → Silver → Gold on Delta Lake / ADLS Gen2
+- 🧪 **dbt Core** models with tests, docs, and full lineage from staging to marts
+- 🔁 **Exactly-once processing** with checkpointing, watermarking & deduplication
+- 📊 Live **Streamlit dashboard** — real-time KPIs, volatility, portfolio drilldowns
+
+🔗 [Repo](https://github.com/Sudheendra66/Real-Time-Crypto-Currency-Streaming-Lakehouse) · 📊 [Live Dashboard](#)
+
 </td>
 </tr>
 </table>
